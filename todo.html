@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h2>TO-DO LIST</h2>
+        <nav class="navbar">
+            <ul>
+                <a href="#" class="navbtn"><li>Home</li></a>
+                <a href="#" class="navbtn"><li>Contact</li></a>
+                <a href="#" class="navbtn"><li>About us</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="input" id="input">
+        <div class="form">
+            <label for="TITLE">TASK:</label>
+            <input type="text" id="task">
+            <!-- <input type="submit" value="ADD"> -->
+            <button>ADD</button>
+        </div>
+            
+        
+    </div>
+
+    <div class="body">
+        <div class="container" id="to_do">
+            <div class="container-header">
+                <h1 class="container-heading">TO-DO</h1>
+                <a href="#" onclick="add()"><img src="/img/add.png" alt="add" class="img-btn"></a>
+            </div>
+            <div class="todo" draggable="true">
+                buy pizza
+                <span class="close">&times;</span>
+            </div>
+            
+            
+        </div>
+        <div class="container" id="doing">
+            <div class="container-header">
+                <h1 class="container-heading">DOING</h1>
+            </div>
+            
+            
+            
+        </div>
+        <div class="container" id="done">
+            <div class="container-header">
+                <h1 class="container-heading">DONE</h1>
+            </div>
+            
+            
+            
+        </div>
+        
+    </div>
+    
+</body>
+<script src="/script.js"></script>
+</html>

@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+}
+.header{
+    display: flex;
+    background-color: rgb(187, 174, 174);
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    
+}
+
+
+ul{
+    display: flex;
+    /* margin: auto auto; */
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.navbtn{
+    text-decoration: none;
+    padding: 5px;
+    margin: auto 50px;
+    color: aliceblue;
+}
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.container{
+    height: 90%;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 30px;
+}
+.container-heading{
+    margin: 15px;
+}
+.container-header{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: space-around;
+}
+.img-btn{
+    height: 40px;
+    width: 40px;
+}
+#input{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 50px auto;
+    display: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    /* justify-content: center; */
+}
+.todo{
+    display: flex;
+    margin: 20px;
+    font-size: 30px;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.close{
+    cursor: pointer;
+}
+.close:hover{
+    color: rgb(114, 104, 104);
+}
+
+@media screen and (max-width: 900px){
+    .body{
+        flex-wrap: wrap;
+    }
+}
